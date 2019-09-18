@@ -1,0 +1,83 @@
+body {
+  background-color: #dadada;
+  margin: 0;
+}
+audio {
+  min-width: 300px;
+}
+ul {
+  padding-inline-start: 0;
+}
+
+/*navbar*/
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+nav {
+  background: green;
+  height: 3rem;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 2rem;
+}
+nav > a {
+  font-size: 2rem;
+}
+.title-header {
+  text-align: center;
+  background: green;
+  padding-bottom: 1rem;
+  color: whitesmoke;
+  margin: 0;
+  font-size: 1.8rem;
+  letter-spacing: 0.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title-header > h2 {
+  margin: 0;
+}
+.fa-spotify {
+  font-size: 2.5rem;
+  color: #43bf43;
+  vertical-align: sub;
+  margin-right: 2rem;
+}
+
+/*
+tracks list*/
+.tracks-container {
+  max-width: 70%;
+  margin: 0 auto;
+  margin-top: 3rem;
+}
+.tracks-layout{
+  display: flex;
+  justify-content: space-between;
+  background-color: whitesmoke;
+  margin: 0.5rem 0;
+  padding: 0 2rem;
+}
+.tracks-title  {
+  display: flex;
+  justify-content: space-between;
+  background-color: #5e635e;
+  color: whitesmoke;
+  padding: 0 2rem;
+}
+
+/*message search*/
+
+.message-search {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+.message-search > p {
+  margin-bottom: 0;
+}

@@ -1,0 +1,81 @@
+body {
+  background-color: #dadada;
+}
+.artists-container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.artist-container {
+  background-color: #92b392;
+  color: whitesmoke;
+  text-align: center;
+  margin: 3rem;
+  width: 280px;
+}
+.artist-img {
+  width: 280px;
+  height: 290px;
+}
+.button-view-albums {
+  background-color: #f44336b8;
+  color: whitesmoke;
+  border: 0;
+  padding: 0.5rem;
+  margin-bottom: 1.1rem;
+  border-radius: 7px;
+}
+
+
+/*navbar*/
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+nav {
+  background: green;
+  height: 3rem;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 2rem;
+}
+nav > a {
+  font-size: 2rem;
+}
+
+.title-header {
+  text-align: center;
+  background: green;
+  padding-bottom: 1rem;
+  color: whitesmoke;
+  margin: 0;
+  font-size: 1.8rem;
+  letter-spacing: 0.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title-header > h2 {
+  margin: 0;
+}
+.fa-spotify {
+  font-size: 2.5rem;
+  color: #43bf43;
+  vertical-align: sub;
+  margin-right: 2rem;
+}
+
+/*message search*/
+
+.message-search {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+.message-search > p {
+  margin-bottom: 0;
+}

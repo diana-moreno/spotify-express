@@ -1,0 +1,48 @@
+html {
+  height: 100%;
+}
+body {
+  background-color: #dbe1e4;
+  background: url('/img/festival.jpg');
+  background-size: cover;
+  height: 100%;
+  margin: 0;
+}
+.searcher-index-container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100%;
+}
+.searcher-index-little-container {
+  padding: 3rem 6rem;
+  background: #8077778a;
+  text-align: center;
+  letter-spacing: 0.3rem;
+}
+.searcher-index-little-container > h2 {
+  color: whitesmoke;
+  font-size: 2rem;
+  margin: 0;
+  display: inline;
+}
+#first-name-input {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  width: 26rem;
+  height: 2rem;
+  padding: 0 1rem;
+}
+.searcher-button {
+  background-color: #e85353;
+  border: 0;
+  font-size: 1rem;
+  padding: 0.5rem;
+  color: whitesmoke;
+  font-weight: bold;
+}
+.fa-spotify {
+  font-size: 2.5rem;
+  color: #43bf43;
+  vertical-align: sub;
+}

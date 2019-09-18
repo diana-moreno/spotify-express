@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Spotify API</title>
+      <!--Icons: https://fontawesome.com/icons?d=gallery-->
+  <script src="https://kit.fontawesome.com/c0a664ee11.js"></script>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/style-tracks.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="../">Home</a>
+    </nav>
+    <div class='title-header'>
+      <i class="fab fa-spotify"></i>
+      <h2>Spotify searcher</h2>
+    </div>
+  </header>
+  <div class='tracks-container'>
+    <div class='tracks-title'>
+      <h2>Tracks of {{album}}</h2>
+      <h2>Listen</h2>
+    </div>
+    <ul>
+      {{#each tracks}}
+        <li class='tracks-layout'>
+          <p>{{this.name}}</p>
+            {{#if this.preview_url}}
+              <audio controls>
+                <source src="{{this.preview_url}}" type="audio/ogg">
+                Your browser does not support the audio element.
+              </audio>
+            {{else}}
+              <p>No audio available.</p>
+            {{/if}}
+        </li>
+      {{/each}}
+    </ul>
+  </div>
+</body>
+</html>
+

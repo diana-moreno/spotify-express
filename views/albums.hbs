@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Spotify API</title>
+        <!--Icons: https://fontawesome.com/icons?d=gallery-->
+  <script src="https://kit.fontawesome.com/c0a664ee11.js"></script>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/style-artists.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="../">Home</a>
+    </nav>
+    <div class='title-header'>
+      <i class="fab fa-spotify"></i>
+      <h2>Spotify searcher</h2>
+    </div>
+    <div class='message-search'>
+      <p>Albums of {{artist}}</p>
+    </div>
+  </header>
+  <div class='artists-container'>
+    {{#each albums}}
+      <div class='artist-container'>
+        <img class='artist-img' src = {{this.images.0.url}}>
+        <div>
+          <h3 class='artist-name'>{{this.name}}</h3>
+          <button class='button-view-albums'><a href ="/tracks/{{this.id}}?album={{this.name}}&artist={{artist}}" method = "GET">View Tracks</a></button>
+        </div>
+      </div>
+    {{/each}}
+  </div>
+</body>
+</html>
