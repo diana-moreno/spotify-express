@@ -82,5 +82,10 @@ app.get('/tracks/:id', (req, res, next) => {
     })
 })
 
-app.listen(3000, () => console.log("My Spotify project running on port 3000 🎧 🥁 🎸 🔊"));
-//module.exports = app;
+//app.listen(3000, () => console.log("My Spotify project running on port 3000 🎧 🥁 🎸 🔊"));
+
+var port = process.env.PORT || 3000;
+
+app.listen(port, function () {
+ console.log(`My Spotify project running!`);
+});

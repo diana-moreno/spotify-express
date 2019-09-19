@@ -1,21 +1,21 @@
 {
-  "name": "starter_code",
+  "name": "spotify-express",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./bin/www",
-    "start-dev": "nodemon ./bin/www"
-  },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "dotenv": "^8.1.0",
     "ejs": "^2.7.1",
     "express": "^4.17.1",
     "express-handlebars": "^3.1.0",
     "hbs": "^4.0.4",
-    "spotify-web-api-node": "^4.0.0",
-  }
+    "spotify-web-api-node": "^4.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC"
 }
