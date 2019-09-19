@@ -1,5 +1,6 @@
 body {
   background-color: #dadada;
+  margin: 0;
 }
 .artists-container {
   display: flex;
