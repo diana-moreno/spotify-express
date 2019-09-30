@@ -1,7 +1,7 @@
 ## SPOTIFY EXPRESS
 
 <p align="center">
-  <img src="./spotify-express.png" width="500">
+  <img src="./img/spotify-express.png" width="500">
 </p>
 
 This is my first back-end project, made with Express.js. You can search in Spotify for artists and see their albums and play 30 seconds of preview the tracks availables.
