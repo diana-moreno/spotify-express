@@ -6,7 +6,7 @@
 
 This is my first back-end project, made with Express.js. You can search in Spotify for artists and see their albums and play 30 seconds of preview the tracks availables.
 
-You can run the final project deployed here: https://spotify-express.herokuapp.com/
+You can run the final project deployed here: https://spotify-express-service.onrender.com/
 
 ### **Features**
 
@@ -17,7 +17,6 @@ You can run the final project deployed here: https://spotify-express.herokuapp.c
 - Since any page it's possible to come back to homepage to made a new search.
 - The data has been obtained from Spotify official API.
 
-
 ### **What I learned**
 
 - Basic Express.js operation.
@@ -26,17 +25,15 @@ You can run the final project deployed here: https://spotify-express.herokuapp.c
 - Keep secure my API keys with Dotenv.
 - When and how to use req.query and req.params.
 - How to read official API documentation.
-- Deploy a back-end project with Heroku.
-
+- Deploy a back-end project with Render (since Heroku stop working).
 
 ### **Resources**
 
 - Initial concert picture from [Freepik](https://www.freepik.es).
 - Spotify icon from [Font Awesome](https://fontawesome.com/icons?d=gallery).
 - This project was created with [Express.js](http://expressjs.com/), a Node.js web application framework.
-- Spotify API from [Spotify for Developers](https://developer.spotify.com/dashboard/login).
-- Deploy application with [Heroku](https://dashboard.heroku.com).
-
+- Spotify API from [Spotify for Developers](https://developer.spotify.com).
+- Deploy application with [Render](https://render.com).
 
 ### **Usage**
 
@@ -49,16 +46,19 @@ To run in local server, you need Node.js and Express.js.
 ```bash
 sudo apt-get install npm
 ```
+
 - Clone or download the repository in your computer.
 
 ```bash
 git clone https://github.com/diana-moreno/spotify-express.git`
 ```
+
 - Download the npm competitions in your own repository and start it.
 
 ```bash
 npm install
 ```
+
 - Install Express.js:
 
 https://expressjs.com/en/starter/installing.html
@@ -84,12 +84,13 @@ https://expressjs.com/en/starter/installing.html
 ```bash
 npm start
 ```
+
 - If you preffer, you can run this command, but only in development, will not work in production (this avoids you to restart the server in every change).
 
 ```bash
 npm run start-dev
 ```
-- I utilized Heokuapp to deploy my project. You can run the final project deployed here:
 
-https://spotify-express.herokuapp.com/
+- I utilized OnRender to deploy my project. You can run the final project deployed here:
 
+https://spotify-express-service.onrender.com/
